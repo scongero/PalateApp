@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A18908A51825B1D200D6F263 /* Palate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A18908A31825B1D200D6F263 /* Palate.xcdatamodeld */; };
+		A18908B81825B5FB00D6F263 /* ThemeTaste.m in Sources */ = {isa = PBXBuildFile; fileRef = A18908B71825B5FB00D6F263 /* ThemeTaste.m */; };
+		A18908BB1825B5FB00D6F263 /* MovieTaste.m in Sources */ = {isa = PBXBuildFile; fileRef = A18908BA1825B5FB00D6F263 /* MovieTaste.m */; };
+		A18908BE1825B5FB00D6F263 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A18908BD1825B5FB00D6F263 /* User.m */; };
+		A18908C11825B5FB00D6F263 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = A18908C01825B5FB00D6F263 /* Theme.m */; };
+		A18908C41825B5FB00D6F263 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = A18908C31825B5FB00D6F263 /* Movie.m */; };
 		A1E067CD182579D60065504B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067CC182579D60065504B /* UIKit.framework */; };
 		A1E067CF182579D60065504B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067CE182579D60065504B /* Foundation.framework */; };
 		A1E067D1182579D60065504B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067D0182579D60065504B /* CoreGraphics.framework */; };
@@ -117,6 +122,16 @@
 
 /* Begin PBXFileReference section */
 		A18908A41825B1D200D6F263 /* Palate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Palate.xcdatamodel; sourceTree = "<group>"; };
+		A18908B61825B5FB00D6F263 /* ThemeTaste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeTaste.h; sourceTree = "<group>"; };
+		A18908B71825B5FB00D6F263 /* ThemeTaste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeTaste.m; sourceTree = "<group>"; };
+		A18908B91825B5FB00D6F263 /* MovieTaste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTaste.h; sourceTree = "<group>"; };
+		A18908BA1825B5FB00D6F263 /* MovieTaste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTaste.m; sourceTree = "<group>"; };
+		A18908BC1825B5FB00D6F263 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A18908BD1825B5FB00D6F263 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A18908BF1825B5FB00D6F263 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		A18908C01825B5FB00D6F263 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		A18908C21825B5FB00D6F263 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		A18908C31825B5FB00D6F263 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		A1E067C9182579D60065504B /* Palate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E067CC182579D60065504B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1E067CE182579D60065504B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -246,6 +261,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A18908B51825B5E600D6F263 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A18908BC1825B5FB00D6F263 /* User.h */,
+				A18908BD1825B5FB00D6F263 /* User.m */,
+				A18908C21825B5FB00D6F263 /* Movie.h */,
+				A18908C31825B5FB00D6F263 /* Movie.m */,
+				A18908B91825B5FB00D6F263 /* MovieTaste.h */,
+				A18908BA1825B5FB00D6F263 /* MovieTaste.m */,
+				A18908BF1825B5FB00D6F263 /* Theme.h */,
+				A18908C01825B5FB00D6F263 /* Theme.m */,
+				A18908B61825B5FB00D6F263 /* ThemeTaste.h */,
+				A18908B71825B5FB00D6F263 /* ThemeTaste.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		A1E067C0182579D60065504B = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +318,7 @@
 				B778372C18259BC100C7DA88 /* MainViewController.h */,
 				B778372D18259BC100C7DA88 /* MainViewController.m */,
 				A18908A31825B1D200D6F263 /* Palate.xcdatamodeld */,
+				A18908B51825B5E600D6F263 /* CoreData */,
 				B778371C182585AC00C7DA88 /* Login */,
 				B7783727182591D800C7DA88 /* SWReveal */,
 				A1E067D3182579D60065504B /* Supporting Files */,
@@ -641,6 +674,11 @@
 				B778372A1825979200C7DA88 /* SideBarViewController.m in Sources */,
 				B778372E18259BC200C7DA88 /* MainViewController.m in Sources */,
 				A18908A51825B1D200D6F263 /* Palate.xcdatamodeld in Sources */,
+				A18908B81825B5FB00D6F263 /* ThemeTaste.m in Sources */,
+				A18908BB1825B5FB00D6F263 /* MovieTaste.m in Sources */,
+				A18908BE1825B5FB00D6F263 /* User.m in Sources */,
+				A18908C11825B5FB00D6F263 /* Theme.m in Sources */,
+				A18908C41825B5FB00D6F263 /* Movie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
