@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1E067CD182579D60065504B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067CC182579D60065504B /* UIKit.framework */; };
+		A1E067CF182579D60065504B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067CE182579D60065504B /* Foundation.framework */; };
+		A1E067D1182579D60065504B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067D0182579D60065504B /* CoreGraphics.framework */; };
+		A1E067D7182579D60065504B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1E067D5182579D60065504B /* InfoPlist.strings */; };
+		A1E067D9182579D60065504B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E067D8182579D60065504B /* main.m */; };
+		A1E067DD182579D60065504B /* PalateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E067DC182579D60065504B /* PalateAppDelegate.m */; };
+		A1E067DF182579D60065504B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E067DE182579D60065504B /* Default.png */; };
+		A1E067E1182579D60065504B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E067E0182579D60065504B /* Default@2x.png */; };
+		A1E067E3182579D60065504B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E067E2182579D60065504B /* Default-568h@2x.png */; };
+		A1E067E6182579D60065504B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E067E4182579D60065504B /* MainStoryboard.storyboard */; };
+		A1E067F1182579D60065504B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067F0182579D60065504B /* SenTestingKit.framework */; };
+		A1E067F2182579D60065504B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067CC182579D60065504B /* UIKit.framework */; };
+		A1E067F3182579D60065504B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E067CE182579D60065504B /* Foundation.framework */; };
+		A1E067FB182579D60065504B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1E067F9182579D60065504B /* InfoPlist.strings */; };
+		A1E067FE182579D60065504B /* PalateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E067FD182579D60065504B /* PalateTests.m */; };
+		B77836861825800700C7DA88 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77836851825800700C7DA88 /* SplashViewController.m */; };
+		B778368A182584A900C7DA88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7783689182584A900C7DA88 /* QuartzCore.framework */; };
+		B7783695182584D000C7DA88 /* splashscreen_horiz_ipad_0000_password.png in Resources */ = {isa = PBXBuildFile; fileRef = B778368B182584D000C7DA88 /* splashscreen_horiz_ipad_0000_password.png */; };
+		B7783696182584D000C7DA88 /* splashscreen_horiz_ipad_0001_name.png in Resources */ = {isa = PBXBuildFile; fileRef = B778368C182584D000C7DA88 /* splashscreen_horiz_ipad_0001_name.png */; };
+		B7783697182584D000C7DA88 /* splashscreen_horiz_ipad_0002_Rounded-Rectangle-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B778368D182584D000C7DA88 /* splashscreen_horiz_ipad_0002_Rounded-Rectangle-1.png */; };
+		B7783698182584D000C7DA88 /* splashscreen_horiz_ipad_0003_slide-to-unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = B778368E182584D000C7DA88 /* splashscreen_horiz_ipad_0003_slide-to-unlock.png */; };
+		B7783699182584D000C7DA88 /* splashscreen_horiz_ipad_0004_Shape-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B778368F182584D000C7DA88 /* splashscreen_horiz_ipad_0004_Shape-1.png */; };
+		B778369A182584D000C7DA88 /* splashscreen_horiz_ipad_0005_Shape-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B7783690182584D000C7DA88 /* splashscreen_horiz_ipad_0005_Shape-2.png */; };
+		B778369B182584D000C7DA88 /* splashscreen_horiz_ipad_0006_Polygon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B7783691182584D000C7DA88 /* splashscreen_horiz_ipad_0006_Polygon-1.png */; };
+		B778369C182584D000C7DA88 /* splashscreen_horiz_ipad_0007_palate.png in Resources */ = {isa = PBXBuildFile; fileRef = B7783692182584D000C7DA88 /* splashscreen_horiz_ipad_0007_palate.png */; };
+		B778369D182584D000C7DA88 /* splashscreen_horiz_ipad_0008_Shape-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B7783693182584D000C7DA88 /* splashscreen_horiz_ipad_0008_Shape-3.png */; };
+		B778369E182584D000C7DA88 /* splashscreen_horiz_ipad_0009_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B7783694182584D000C7DA88 /* splashscreen_horiz_ipad_0009_Background.png */; };
+		B77836C3182584EA00C7DA88 /* splashscreen_horiz_ipad_0000_the_dark_knight_movie_poster.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A0182584EA00C7DA88 /* splashscreen_horiz_ipad_0000_the_dark_knight_movie_poster.png */; };
+		B77836C4182584EA00C7DA88 /* splashscreen_horiz_ipad_0001_gravity-movie-poster.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A1182584EA00C7DA88 /* splashscreen_horiz_ipad_0001_gravity-movie-poster.png */; };
+		B77836C5182584EA00C7DA88 /* splashscreen_horiz_ipad_0002_fightclub.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A2182584EA00C7DA88 /* splashscreen_horiz_ipad_0002_fightclub.png */; };
+		B77836C6182584EA00C7DA88 /* splashscreen_horiz_ipad_0003_Rounded-Rectangle-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A3182584EA00C7DA88 /* splashscreen_horiz_ipad_0003_Rounded-Rectangle-1.png */; };
+		B77836C7182584EA00C7DA88 /* splashscreen_horiz_ipad_0004_9.2-_.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A4182584EA00C7DA88 /* splashscreen_horiz_ipad_0004_9.2-_.png */; };
+		B77836C8182584EA00C7DA88 /* splashscreen_horiz_ipad_0005_Shape-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A5182584EA00C7DA88 /* splashscreen_horiz_ipad_0005_Shape-6.png */; };
+		B77836C9182584EA00C7DA88 /* splashscreen_horiz_ipad_0006_Rounded-Rectangle-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A6182584EA00C7DA88 /* splashscreen_horiz_ipad_0006_Rounded-Rectangle-4.png */; };
+		B77836CA182584EA00C7DA88 /* splashscreen_horiz_ipad_0007_Polygon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A7182584EA00C7DA88 /* splashscreen_horiz_ipad_0007_Polygon-2.png */; };
+		B77836CB182584EA00C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A8182584EA00C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-6.png */; };
+		B77836CC182584EA00C7DA88 /* splashscreen_horiz_ipad_0009_Polygon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836A9182584EA00C7DA88 /* splashscreen_horiz_ipad_0009_Polygon-1.png */; };
+		B77836CD182584EA00C7DA88 /* splashscreen_horiz_ipad_0010_Rounded-Rectangle-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836AA182584EA00C7DA88 /* splashscreen_horiz_ipad_0010_Rounded-Rectangle-2.png */; };
+		B77836CE182584EA00C7DA88 /* splashscreen_horiz_ipad_0011_Movies.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836AB182584EA00C7DA88 /* splashscreen_horiz_ipad_0011_Movies.png */; };
+		B77836CF182584EA00C7DA88 /* splashscreen_horiz_ipad_0012_Shape-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836AC182584EA00C7DA88 /* splashscreen_horiz_ipad_0012_Shape-4.png */; };
+		B77836D0182584EA00C7DA88 /* splashscreen_horiz_ipad_0013_search.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836AD182584EA00C7DA88 /* splashscreen_horiz_ipad_0013_search.png */; };
+		B77836D1182584EA00C7DA88 /* splashscreen_horiz_ipad_0014_Rounded-Rectangle-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836AE182584EA00C7DA88 /* splashscreen_horiz_ipad_0014_Rounded-Rectangle-3.png */; };
+		B77836D2182584EA00C7DA88 /* splashscreen_horiz_ipad_0015_Flavor.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836AF182584EA00C7DA88 /* splashscreen_horiz_ipad_0015_Flavor.png */; };
+		B77836D3182584EA00C7DA88 /* splashscreen_horiz_ipad_0016_Rectangle-7.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B0182584EA00C7DA88 /* splashscreen_horiz_ipad_0016_Rectangle-7.png */; };
+		B77836D4182584EA00C7DA88 /* splashscreen_horiz_ipad_0017_Shape-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B1182584EA00C7DA88 /* splashscreen_horiz_ipad_0017_Shape-5.png */; };
+		B77836D5182584EA00C7DA88 /* splashscreen_horiz_ipad_0018_Ellipse-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B2182584EA00C7DA88 /* splashscreen_horiz_ipad_0018_Ellipse-6.png */; };
+		B77836D6182584EA00C7DA88 /* splashscreen_horiz_ipad_0019_Ellipse-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B3182584EA00C7DA88 /* splashscreen_horiz_ipad_0019_Ellipse-5.png */; };
+		B77836D7182584EA00C7DA88 /* splashscreen_horiz_ipad_0020_Ellipse-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B4182584EA00C7DA88 /* splashscreen_horiz_ipad_0020_Ellipse-4.png */; };
+		B77836D8182584EA00C7DA88 /* splashscreen_horiz_ipad_0021_Ellipse-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B5182584EA00C7DA88 /* splashscreen_horiz_ipad_0021_Ellipse-3.png */; };
+		B77836D9182584EA00C7DA88 /* splashscreen_horiz_ipad_0022_Ellipse-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B6182584EA00C7DA88 /* splashscreen_horiz_ipad_0022_Ellipse-2.png */; };
+		B77836DA182584EA00C7DA88 /* splashscreen_horiz_ipad_0023_Rectangle-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B7182584EA00C7DA88 /* splashscreen_horiz_ipad_0023_Rectangle-1.png */; };
+		B77836DB182584EA00C7DA88 /* splashscreen_horiz_ipad_0024_Critics.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B8182584EA00C7DA88 /* splashscreen_horiz_ipad_0024_Critics.png */; };
+		B77836DC182584EA00C7DA88 /* splashscreen_horiz_ipad_0025_Shape-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836B9182584EA00C7DA88 /* splashscreen_horiz_ipad_0025_Shape-8.png */; };
+		B77836DD182584EA00C7DA88 /* splashscreen_horiz_ipad_0026_Shape-7.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836BA182584EA00C7DA88 /* splashscreen_horiz_ipad_0026_Shape-7.png */; };
+		B77836DE182584EA00C7DA88 /* splashscreen_horiz_ipad_0027_Rectangle-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836BB182584EA00C7DA88 /* splashscreen_horiz_ipad_0027_Rectangle-3.png */; };
+		B77836DF182584EA00C7DA88 /* splashscreen_horiz_ipad_0028_Rectangle-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836BC182584EA00C7DA88 /* splashscreen_horiz_ipad_0028_Rectangle-5.png */; };
+		B77836E0182584EA00C7DA88 /* splashscreen_horiz_ipad_0029_Rectangle-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836BD182584EA00C7DA88 /* splashscreen_horiz_ipad_0029_Rectangle-2.png */; };
+		B77836E1182584EA00C7DA88 /* splashscreen_horiz_ipad_0030_Shape-9.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836BE182584EA00C7DA88 /* splashscreen_horiz_ipad_0030_Shape-9.png */; };
+		B77836E2182584EA00C7DA88 /* splashscreen_horiz_ipad_0031_Add-Your-Flavor.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836BF182584EA00C7DA88 /* splashscreen_horiz_ipad_0031_Add-Your-Flavor.png */; };
+		B77836E3182584EA00C7DA88 /* splashscreen_horiz_ipad_0032_Review.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836C0182584EA00C7DA88 /* splashscreen_horiz_ipad_0032_Review.png */; };
+		B77836E4182584EA00C7DA88 /* splashscreen_horiz_ipad_0033_9.4.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836C1182584EA00C7DA88 /* splashscreen_horiz_ipad_0033_9.4.png */; };
+		B77836E5182584EA00C7DA88 /* splashscreen_horiz_ipad_0034_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836C2182584EA00C7DA88 /* splashscreen_horiz_ipad_0034_Background.png */; };
+		B77836FA1825850400C7DA88 /* splashscreen_horiz_ipad_0000_Rounded-Rectangle-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836E71825850400C7DA88 /* splashscreen_horiz_ipad_0000_Rounded-Rectangle-4.png */; };
+		B77836FB1825850400C7DA88 /* splashscreen_horiz_ipad_0001_Polygon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836E81825850400C7DA88 /* splashscreen_horiz_ipad_0001_Polygon-1.png */; };
+		B77836FC1825850400C7DA88 /* splashscreen_horiz_ipad_0002_Rahul-Madduluri.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836E91825850400C7DA88 /* splashscreen_horiz_ipad_0002_Rahul-Madduluri.png */; };
+		B77836FD1825850400C7DA88 /* splashscreen_horiz_ipad_0003_Ellipse-6.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836EA1825850400C7DA88 /* splashscreen_horiz_ipad_0003_Ellipse-6.png */; };
+		B77836FE1825850400C7DA88 /* splashscreen_horiz_ipad_0004_Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836EB1825850400C7DA88 /* splashscreen_horiz_ipad_0004_Profile.png */; };
+		B77836FF1825850400C7DA88 /* splashscreen_horiz_ipad_0005_search.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836EC1825850400C7DA88 /* splashscreen_horiz_ipad_0005_search.png */; };
+		B77837001825850400C7DA88 /* splashscreen_horiz_ipad_0006_Shape-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836ED1825850400C7DA88 /* splashscreen_horiz_ipad_0006_Shape-1.png */; };
+		B77837011825850400C7DA88 /* splashscreen_horiz_ipad_0007_Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836EE1825850400C7DA88 /* splashscreen_horiz_ipad_0007_Favorites.png */; };
+		B77837021825850400C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-10.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836EF1825850400C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-10.png */; };
+		B77837031825850400C7DA88 /* splashscreen_horiz_ipad_0009_Rectangle-9.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F01825850400C7DA88 /* splashscreen_horiz_ipad_0009_Rectangle-9.png */; };
+		B77837041825850400C7DA88 /* splashscreen_horiz_ipad_0010_Rectangle-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F11825850400C7DA88 /* splashscreen_horiz_ipad_0010_Rectangle-8.png */; };
+		B77837051825850400C7DA88 /* splashscreen_horiz_ipad_0011_Shape-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F21825850400C7DA88 /* splashscreen_horiz_ipad_0011_Shape-3.png */; };
+		B77837061825850400C7DA88 /* splashscreen_horiz_ipad_0012_Shape-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F31825850400C7DA88 /* splashscreen_horiz_ipad_0012_Shape-2.png */; };
+		B77837071825850400C7DA88 /* splashscreen_horiz_ipad_0013_Books.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F41825850400C7DA88 /* splashscreen_horiz_ipad_0013_Books.png */; };
+		B77837081825850400C7DA88 /* splashscreen_horiz_ipad_0014_Music.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F51825850400C7DA88 /* splashscreen_horiz_ipad_0014_Music.png */; };
+		B77837091825850400C7DA88 /* splashscreen_horiz_ipad_0015_Movies.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F61825850400C7DA88 /* splashscreen_horiz_ipad_0015_Movies.png */; };
+		B778370A1825850400C7DA88 /* splashscreen_horiz_ipad_0016_Rounded-Rectangle-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F71825850400C7DA88 /* splashscreen_horiz_ipad_0016_Rounded-Rectangle-3.png */; };
+		B778370B1825850400C7DA88 /* splashscreen_horiz_ipad_0017_Rectangle-7.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F81825850400C7DA88 /* splashscreen_horiz_ipad_0017_Rectangle-7.png */; };
+		B778370C1825850400C7DA88 /* splashscreen_horiz_ipad_0018_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B77836F91825850400C7DA88 /* splashscreen_horiz_ipad_0018_Background.png */; };
+		B77837131825852400C7DA88 /* splashscreen_horiz_ipad_0000_Shape-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B778370E1825852400C7DA88 /* splashscreen_horiz_ipad_0000_Shape-1.png */; };
+		B77837141825852400C7DA88 /* splashscreen_horiz_ipad_0001_Shape-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B778370F1825852400C7DA88 /* splashscreen_horiz_ipad_0001_Shape-2.png */; };
+		B77837151825852400C7DA88 /* splashscreen_horiz_ipad_0002_Polygon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B77837101825852400C7DA88 /* splashscreen_horiz_ipad_0002_Polygon-1.png */; };
+		B77837161825852400C7DA88 /* splashscreen_horiz_ipad_0003_palate.png in Resources */ = {isa = PBXBuildFile; fileRef = B77837111825852400C7DA88 /* splashscreen_horiz_ipad_0003_palate.png */; };
+		B77837171825852400C7DA88 /* splashscreen_horiz_ipad_0004_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B77837121825852400C7DA88 /* splashscreen_horiz_ipad_0004_Background.png */; };
+		B778371B182585A600C7DA88 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B778371A182585A600C7DA88 /* LoginViewController.m */; };
+		B778372018258DA500C7DA88 /* Nothing.png in Resources */ = {isa = PBXBuildFile; fileRef = B778371F18258DA500C7DA88 /* Nothing.png */; };
+		B778372218258DB900C7DA88 /* resized palate pentagon.png in Resources */ = {isa = PBXBuildFile; fileRef = B778372118258DB900C7DA88 /* resized palate pentagon.png */; };
+		B7783725182591AA00C7DA88 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7783724182591A900C7DA88 /* SWRevealViewController.m */; };
+		B7783726182591AA00C7DA88 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7783724182591A900C7DA88 /* SWRevealViewController.m */; };
+		B778372A1825979200C7DA88 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77837291825979200C7DA88 /* SideBarViewController.m */; };
+		B778372B1825979200C7DA88 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77837291825979200C7DA88 /* SideBarViewController.m */; };
+		B778372E18259BC200C7DA88 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B778372D18259BC100C7DA88 /* MainViewController.m */; };
+		B778372F18259BC200C7DA88 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B778372D18259BC100C7DA88 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1E067F4182579D60065504B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E067C1182579D60065504B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E067C8182579D60065504B;
+			remoteInfo = Palate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1E067C9182579D60065504B /* Palate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E067CC182579D60065504B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1E067CE182579D60065504B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1E067D0182579D60065504B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1E067D4182579D60065504B /* Palate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Palate-Info.plist"; sourceTree = "<group>"; };
+		A1E067D6182579D60065504B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1E067D8182579D60065504B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E067DA182579D60065504B /* Palate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Palate-Prefix.pch"; sourceTree = "<group>"; };
+		A1E067DB182579D60065504B /* PalateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalateAppDelegate.h; sourceTree = "<group>"; };
+		A1E067DC182579D60065504B /* PalateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalateAppDelegate.m; sourceTree = "<group>"; };
+		A1E067DE182579D60065504B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A1E067E0182579D60065504B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A1E067E2182579D60065504B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1E067E5182579D60065504B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A1E067EF182579D60065504B /* PalateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E067F0182579D60065504B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1E067F8182579D60065504B /* PalateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PalateTests-Info.plist"; sourceTree = "<group>"; };
+		A1E067FA182579D60065504B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1E067FC182579D60065504B /* PalateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalateTests.h; sourceTree = "<group>"; };
+		A1E067FD182579D60065504B /* PalateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalateTests.m; sourceTree = "<group>"; };
+		B77836841825800700C7DA88 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		B77836851825800700C7DA88 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		B7783689182584A900C7DA88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B778368B182584D000C7DA88 /* splashscreen_horiz_ipad_0000_password.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0000_password.png; path = "images for app/login pngs/splashscreen_horiz_ipad_0000_password.png"; sourceTree = "<group>"; };
+		B778368C182584D000C7DA88 /* splashscreen_horiz_ipad_0001_name.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0001_name.png; path = "images for app/login pngs/splashscreen_horiz_ipad_0001_name.png"; sourceTree = "<group>"; };
+		B778368D182584D000C7DA88 /* splashscreen_horiz_ipad_0002_Rounded-Rectangle-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0002_Rounded-Rectangle-1.png"; path = "images for app/login pngs/splashscreen_horiz_ipad_0002_Rounded-Rectangle-1.png"; sourceTree = "<group>"; };
+		B778368E182584D000C7DA88 /* splashscreen_horiz_ipad_0003_slide-to-unlock.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0003_slide-to-unlock.png"; path = "images for app/login pngs/splashscreen_horiz_ipad_0003_slide-to-unlock.png"; sourceTree = "<group>"; };
+		B778368F182584D000C7DA88 /* splashscreen_horiz_ipad_0004_Shape-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0004_Shape-1.png"; path = "images for app/login pngs/splashscreen_horiz_ipad_0004_Shape-1.png"; sourceTree = "<group>"; };
+		B7783690182584D000C7DA88 /* splashscreen_horiz_ipad_0005_Shape-2.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0005_Shape-2.png"; path = "images for app/login pngs/splashscreen_horiz_ipad_0005_Shape-2.png"; sourceTree = "<group>"; };
+		B7783691182584D000C7DA88 /* splashscreen_horiz_ipad_0006_Polygon-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0006_Polygon-1.png"; path = "images for app/login pngs/splashscreen_horiz_ipad_0006_Polygon-1.png"; sourceTree = "<group>"; };
+		B7783692182584D000C7DA88 /* splashscreen_horiz_ipad_0007_palate.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0007_palate.png; path = "images for app/login pngs/splashscreen_horiz_ipad_0007_palate.png"; sourceTree = "<group>"; };
+		B7783693182584D000C7DA88 /* splashscreen_horiz_ipad_0008_Shape-3.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0008_Shape-3.png"; path = "images for app/login pngs/splashscreen_horiz_ipad_0008_Shape-3.png"; sourceTree = "<group>"; };
+		B7783694182584D000C7DA88 /* splashscreen_horiz_ipad_0009_Background.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0009_Background.png; path = "images for app/login pngs/splashscreen_horiz_ipad_0009_Background.png"; sourceTree = "<group>"; };
+		B77836A0182584EA00C7DA88 /* splashscreen_horiz_ipad_0000_the_dark_knight_movie_poster.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0000_the_dark_knight_movie_poster.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0000_the_dark_knight_movie_poster.png"; sourceTree = "<group>"; };
+		B77836A1182584EA00C7DA88 /* splashscreen_horiz_ipad_0001_gravity-movie-poster.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0001_gravity-movie-poster.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0001_gravity-movie-poster.png"; sourceTree = "<group>"; };
+		B77836A2182584EA00C7DA88 /* splashscreen_horiz_ipad_0002_fightclub.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0002_fightclub.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0002_fightclub.png"; sourceTree = "<group>"; };
+		B77836A3182584EA00C7DA88 /* splashscreen_horiz_ipad_0003_Rounded-Rectangle-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0003_Rounded-Rectangle-1.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0003_Rounded-Rectangle-1.png"; sourceTree = "<group>"; };
+		B77836A4182584EA00C7DA88 /* splashscreen_horiz_ipad_0004_9.2-_.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0004_9.2-_.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0004_9.2-_.png"; sourceTree = "<group>"; };
+		B77836A5182584EA00C7DA88 /* splashscreen_horiz_ipad_0005_Shape-6.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0005_Shape-6.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0005_Shape-6.png"; sourceTree = "<group>"; };
+		B77836A6182584EA00C7DA88 /* splashscreen_horiz_ipad_0006_Rounded-Rectangle-4.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0006_Rounded-Rectangle-4.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0006_Rounded-Rectangle-4.png"; sourceTree = "<group>"; };
+		B77836A7182584EA00C7DA88 /* splashscreen_horiz_ipad_0007_Polygon-2.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0007_Polygon-2.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0007_Polygon-2.png"; sourceTree = "<group>"; };
+		B77836A8182584EA00C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-6.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0008_Rectangle-6.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0008_Rectangle-6.png"; sourceTree = "<group>"; };
+		B77836A9182584EA00C7DA88 /* splashscreen_horiz_ipad_0009_Polygon-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0009_Polygon-1.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0009_Polygon-1.png"; sourceTree = "<group>"; };
+		B77836AA182584EA00C7DA88 /* splashscreen_horiz_ipad_0010_Rounded-Rectangle-2.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0010_Rounded-Rectangle-2.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0010_Rounded-Rectangle-2.png"; sourceTree = "<group>"; };
+		B77836AB182584EA00C7DA88 /* splashscreen_horiz_ipad_0011_Movies.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0011_Movies.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0011_Movies.png"; sourceTree = "<group>"; };
+		B77836AC182584EA00C7DA88 /* splashscreen_horiz_ipad_0012_Shape-4.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0012_Shape-4.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0012_Shape-4.png"; sourceTree = "<group>"; };
+		B77836AD182584EA00C7DA88 /* splashscreen_horiz_ipad_0013_search.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0013_search.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0013_search.png"; sourceTree = "<group>"; };
+		B77836AE182584EA00C7DA88 /* splashscreen_horiz_ipad_0014_Rounded-Rectangle-3.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0014_Rounded-Rectangle-3.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0014_Rounded-Rectangle-3.png"; sourceTree = "<group>"; };
+		B77836AF182584EA00C7DA88 /* splashscreen_horiz_ipad_0015_Flavor.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0015_Flavor.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0015_Flavor.png"; sourceTree = "<group>"; };
+		B77836B0182584EA00C7DA88 /* splashscreen_horiz_ipad_0016_Rectangle-7.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0016_Rectangle-7.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0016_Rectangle-7.png"; sourceTree = "<group>"; };
+		B77836B1182584EA00C7DA88 /* splashscreen_horiz_ipad_0017_Shape-5.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0017_Shape-5.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0017_Shape-5.png"; sourceTree = "<group>"; };
+		B77836B2182584EA00C7DA88 /* splashscreen_horiz_ipad_0018_Ellipse-6.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0018_Ellipse-6.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0018_Ellipse-6.png"; sourceTree = "<group>"; };
+		B77836B3182584EA00C7DA88 /* splashscreen_horiz_ipad_0019_Ellipse-5.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0019_Ellipse-5.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0019_Ellipse-5.png"; sourceTree = "<group>"; };
+		B77836B4182584EA00C7DA88 /* splashscreen_horiz_ipad_0020_Ellipse-4.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0020_Ellipse-4.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0020_Ellipse-4.png"; sourceTree = "<group>"; };
+		B77836B5182584EA00C7DA88 /* splashscreen_horiz_ipad_0021_Ellipse-3.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0021_Ellipse-3.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0021_Ellipse-3.png"; sourceTree = "<group>"; };
+		B77836B6182584EA00C7DA88 /* splashscreen_horiz_ipad_0022_Ellipse-2.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0022_Ellipse-2.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0022_Ellipse-2.png"; sourceTree = "<group>"; };
+		B77836B7182584EA00C7DA88 /* splashscreen_horiz_ipad_0023_Rectangle-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0023_Rectangle-1.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0023_Rectangle-1.png"; sourceTree = "<group>"; };
+		B77836B8182584EA00C7DA88 /* splashscreen_horiz_ipad_0024_Critics.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0024_Critics.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0024_Critics.png"; sourceTree = "<group>"; };
+		B77836B9182584EA00C7DA88 /* splashscreen_horiz_ipad_0025_Shape-8.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0025_Shape-8.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0025_Shape-8.png"; sourceTree = "<group>"; };
+		B77836BA182584EA00C7DA88 /* splashscreen_horiz_ipad_0026_Shape-7.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0026_Shape-7.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0026_Shape-7.png"; sourceTree = "<group>"; };
+		B77836BB182584EA00C7DA88 /* splashscreen_horiz_ipad_0027_Rectangle-3.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0027_Rectangle-3.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0027_Rectangle-3.png"; sourceTree = "<group>"; };
+		B77836BC182584EA00C7DA88 /* splashscreen_horiz_ipad_0028_Rectangle-5.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0028_Rectangle-5.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0028_Rectangle-5.png"; sourceTree = "<group>"; };
+		B77836BD182584EA00C7DA88 /* splashscreen_horiz_ipad_0029_Rectangle-2.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0029_Rectangle-2.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0029_Rectangle-2.png"; sourceTree = "<group>"; };
+		B77836BE182584EA00C7DA88 /* splashscreen_horiz_ipad_0030_Shape-9.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0030_Shape-9.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0030_Shape-9.png"; sourceTree = "<group>"; };
+		B77836BF182584EA00C7DA88 /* splashscreen_horiz_ipad_0031_Add-Your-Flavor.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0031_Add-Your-Flavor.png"; path = "images for app/movie pngs/splashscreen_horiz_ipad_0031_Add-Your-Flavor.png"; sourceTree = "<group>"; };
+		B77836C0182584EA00C7DA88 /* splashscreen_horiz_ipad_0032_Review.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0032_Review.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0032_Review.png"; sourceTree = "<group>"; };
+		B77836C1182584EA00C7DA88 /* splashscreen_horiz_ipad_0033_9.4.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0033_9.4.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0033_9.4.png"; sourceTree = "<group>"; };
+		B77836C2182584EA00C7DA88 /* splashscreen_horiz_ipad_0034_Background.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0034_Background.png; path = "images for app/movie pngs/splashscreen_horiz_ipad_0034_Background.png"; sourceTree = "<group>"; };
+		B77836E71825850400C7DA88 /* splashscreen_horiz_ipad_0000_Rounded-Rectangle-4.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0000_Rounded-Rectangle-4.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0000_Rounded-Rectangle-4.png"; sourceTree = "<group>"; };
+		B77836E81825850400C7DA88 /* splashscreen_horiz_ipad_0001_Polygon-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0001_Polygon-1.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0001_Polygon-1.png"; sourceTree = "<group>"; };
+		B77836E91825850400C7DA88 /* splashscreen_horiz_ipad_0002_Rahul-Madduluri.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0002_Rahul-Madduluri.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0002_Rahul-Madduluri.png"; sourceTree = "<group>"; };
+		B77836EA1825850400C7DA88 /* splashscreen_horiz_ipad_0003_Ellipse-6.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0003_Ellipse-6.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0003_Ellipse-6.png"; sourceTree = "<group>"; };
+		B77836EB1825850400C7DA88 /* splashscreen_horiz_ipad_0004_Profile.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0004_Profile.png; path = "images for app/profile pngs/splashscreen_horiz_ipad_0004_Profile.png"; sourceTree = "<group>"; };
+		B77836EC1825850400C7DA88 /* splashscreen_horiz_ipad_0005_search.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0005_search.png; path = "images for app/profile pngs/splashscreen_horiz_ipad_0005_search.png"; sourceTree = "<group>"; };
+		B77836ED1825850400C7DA88 /* splashscreen_horiz_ipad_0006_Shape-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0006_Shape-1.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0006_Shape-1.png"; sourceTree = "<group>"; };
+		B77836EE1825850400C7DA88 /* splashscreen_horiz_ipad_0007_Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0007_Favorites.png; path = "images for app/profile pngs/splashscreen_horiz_ipad_0007_Favorites.png"; sourceTree = "<group>"; };
+		B77836EF1825850400C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-10.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0008_Rectangle-10.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0008_Rectangle-10.png"; sourceTree = "<group>"; };
+		B77836F01825850400C7DA88 /* splashscreen_horiz_ipad_0009_Rectangle-9.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0009_Rectangle-9.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0009_Rectangle-9.png"; sourceTree = "<group>"; };
+		B77836F11825850400C7DA88 /* splashscreen_horiz_ipad_0010_Rectangle-8.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0010_Rectangle-8.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0010_Rectangle-8.png"; sourceTree = "<group>"; };
+		B77836F21825850400C7DA88 /* splashscreen_horiz_ipad_0011_Shape-3.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0011_Shape-3.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0011_Shape-3.png"; sourceTree = "<group>"; };
+		B77836F31825850400C7DA88 /* splashscreen_horiz_ipad_0012_Shape-2.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0012_Shape-2.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0012_Shape-2.png"; sourceTree = "<group>"; };
+		B77836F41825850400C7DA88 /* splashscreen_horiz_ipad_0013_Books.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0013_Books.png; path = "images for app/profile pngs/splashscreen_horiz_ipad_0013_Books.png"; sourceTree = "<group>"; };
+		B77836F51825850400C7DA88 /* splashscreen_horiz_ipad_0014_Music.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0014_Music.png; path = "images for app/profile pngs/splashscreen_horiz_ipad_0014_Music.png"; sourceTree = "<group>"; };
+		B77836F61825850400C7DA88 /* splashscreen_horiz_ipad_0015_Movies.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0015_Movies.png; path = "images for app/profile pngs/splashscreen_horiz_ipad_0015_Movies.png"; sourceTree = "<group>"; };
+		B77836F71825850400C7DA88 /* splashscreen_horiz_ipad_0016_Rounded-Rectangle-3.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0016_Rounded-Rectangle-3.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0016_Rounded-Rectangle-3.png"; sourceTree = "<group>"; };
+		B77836F81825850400C7DA88 /* splashscreen_horiz_ipad_0017_Rectangle-7.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0017_Rectangle-7.png"; path = "images for app/profile pngs/splashscreen_horiz_ipad_0017_Rectangle-7.png"; sourceTree = "<group>"; };
+		B77836F91825850400C7DA88 /* splashscreen_horiz_ipad_0018_Background.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0018_Background.png; path = "images for app/profile pngs/splashscreen_horiz_ipad_0018_Background.png"; sourceTree = "<group>"; };
+		B778370E1825852400C7DA88 /* splashscreen_horiz_ipad_0000_Shape-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0000_Shape-1.png"; path = "images for app/splash pngs/splashscreen_horiz_ipad_0000_Shape-1.png"; sourceTree = "<group>"; };
+		B778370F1825852400C7DA88 /* splashscreen_horiz_ipad_0001_Shape-2.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0001_Shape-2.png"; path = "images for app/splash pngs/splashscreen_horiz_ipad_0001_Shape-2.png"; sourceTree = "<group>"; };
+		B77837101825852400C7DA88 /* splashscreen_horiz_ipad_0002_Polygon-1.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = "splashscreen_horiz_ipad_0002_Polygon-1.png"; path = "images for app/splash pngs/splashscreen_horiz_ipad_0002_Polygon-1.png"; sourceTree = "<group>"; };
+		B77837111825852400C7DA88 /* splashscreen_horiz_ipad_0003_palate.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0003_palate.png; path = "images for app/splash pngs/splashscreen_horiz_ipad_0003_palate.png"; sourceTree = "<group>"; };
+		B77837121825852400C7DA88 /* splashscreen_horiz_ipad_0004_Background.png */ = {isa = PBXFileReference; lastKnownFileType = file; name = splashscreen_horiz_ipad_0004_Background.png; path = "images for app/splash pngs/splashscreen_horiz_ipad_0004_Background.png"; sourceTree = "<group>"; };
+		B7783719182585A600C7DA88 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B778371A182585A600C7DA88 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B778371F18258DA500C7DA88 /* Nothing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nothing.png; sourceTree = "<group>"; };
+		B778372118258DB900C7DA88 /* resized palate pentagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resized palate pentagon.png"; sourceTree = "<group>"; };
+		B7783723182591A900C7DA88 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B7783724182591A900C7DA88 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B77837281825979200C7DA88 /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		B77837291825979200C7DA88 /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		B778372C18259BC100C7DA88 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B778372D18259BC100C7DA88 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E067C6182579D60065504B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B778368A182584A900C7DA88 /* QuartzCore.framework in Frameworks */,
+				A1E067CD182579D60065504B /* UIKit.framework in Frameworks */,
+				A1E067CF182579D60065504B /* Foundation.framework in Frameworks */,
+				A1E067D1182579D60065504B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E067EB182579D60065504B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E067F1182579D60065504B /* SenTestingKit.framework in Frameworks */,
+				A1E067F2182579D60065504B /* UIKit.framework in Frameworks */,
+				A1E067F3182579D60065504B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1E067C0182579D60065504B = {
+			isa = PBXGroup;
+			children = (
+				A1E067D2182579D60065504B /* Palate */,
+				A1E067F6182579D60065504B /* PalateTests */,
+				A1E067CB182579D60065504B /* Frameworks */,
+				A1E067CA182579D60065504B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E067CA182579D60065504B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E067C9182579D60065504B /* Palate.app */,
+				A1E067EF182579D60065504B /* PalateTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E067CB182579D60065504B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7783689182584A900C7DA88 /* QuartzCore.framework */,
+				A1E067CC182579D60065504B /* UIKit.framework */,
+				A1E067CE182579D60065504B /* Foundation.framework */,
+				A1E067D0182579D60065504B /* CoreGraphics.framework */,
+				A1E067F0182579D60065504B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E067D2182579D60065504B /* Palate */ = {
+			isa = PBXGroup;
+			children = (
+				A1E067E4182579D60065504B /* MainStoryboard.storyboard */,
+				B77837281825979200C7DA88 /* SideBarViewController.h */,
+				B77837291825979200C7DA88 /* SideBarViewController.m */,
+				B778372C18259BC100C7DA88 /* MainViewController.h */,
+				B778372D18259BC100C7DA88 /* MainViewController.m */,
+				B778371C182585AC00C7DA88 /* Login */,
+				B7783727182591D800C7DA88 /* SWReveal */,
+				A1E067D3182579D60065504B /* Supporting Files */,
+			);
+			path = Palate;
+			sourceTree = "<group>";
+		};
+		A1E067D3182579D60065504B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B77837181825852F00C7DA88 /* Splash */,
+				B778370D1825850800C7DA88 /* Profile */,
+				B77836E6182584EF00C7DA88 /* Movie */,
+				B778369F182584D800C7DA88 /* Login */,
+				A1E067DB182579D60065504B /* PalateAppDelegate.h */,
+				A1E067DC182579D60065504B /* PalateAppDelegate.m */,
+				A1E067D4182579D60065504B /* Palate-Info.plist */,
+				A1E067D5182579D60065504B /* InfoPlist.strings */,
+				A1E067D8182579D60065504B /* main.m */,
+				A1E067DA182579D60065504B /* Palate-Prefix.pch */,
+				A1E067DE182579D60065504B /* Default.png */,
+				A1E067E0182579D60065504B /* Default@2x.png */,
+				A1E067E2182579D60065504B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E067F6182579D60065504B /* PalateTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E067FC182579D60065504B /* PalateTests.h */,
+				A1E067FD182579D60065504B /* PalateTests.m */,
+				A1E067F7182579D60065504B /* Supporting Files */,
+			);
+			path = PalateTests;
+			sourceTree = "<group>";
+		};
+		A1E067F7182579D60065504B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E067F8182579D60065504B /* PalateTests-Info.plist */,
+				A1E067F9182579D60065504B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B778369F182584D800C7DA88 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B778372118258DB900C7DA88 /* resized palate pentagon.png */,
+				B778371F18258DA500C7DA88 /* Nothing.png */,
+				B778368B182584D000C7DA88 /* splashscreen_horiz_ipad_0000_password.png */,
+				B778368C182584D000C7DA88 /* splashscreen_horiz_ipad_0001_name.png */,
+				B778368D182584D000C7DA88 /* splashscreen_horiz_ipad_0002_Rounded-Rectangle-1.png */,
+				B778368E182584D000C7DA88 /* splashscreen_horiz_ipad_0003_slide-to-unlock.png */,
+				B778368F182584D000C7DA88 /* splashscreen_horiz_ipad_0004_Shape-1.png */,
+				B7783690182584D000C7DA88 /* splashscreen_horiz_ipad_0005_Shape-2.png */,
+				B7783691182584D000C7DA88 /* splashscreen_horiz_ipad_0006_Polygon-1.png */,
+				B7783692182584D000C7DA88 /* splashscreen_horiz_ipad_0007_palate.png */,
+				B7783693182584D000C7DA88 /* splashscreen_horiz_ipad_0008_Shape-3.png */,
+				B7783694182584D000C7DA88 /* splashscreen_horiz_ipad_0009_Background.png */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B77836E6182584EF00C7DA88 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				B77836A0182584EA00C7DA88 /* splashscreen_horiz_ipad_0000_the_dark_knight_movie_poster.png */,
+				B77836A1182584EA00C7DA88 /* splashscreen_horiz_ipad_0001_gravity-movie-poster.png */,
+				B77836A2182584EA00C7DA88 /* splashscreen_horiz_ipad_0002_fightclub.png */,
+				B77836A3182584EA00C7DA88 /* splashscreen_horiz_ipad_0003_Rounded-Rectangle-1.png */,
+				B77836A4182584EA00C7DA88 /* splashscreen_horiz_ipad_0004_9.2-_.png */,
+				B77836A5182584EA00C7DA88 /* splashscreen_horiz_ipad_0005_Shape-6.png */,
+				B77836A6182584EA00C7DA88 /* splashscreen_horiz_ipad_0006_Rounded-Rectangle-4.png */,
+				B77836A7182584EA00C7DA88 /* splashscreen_horiz_ipad_0007_Polygon-2.png */,
+				B77836A8182584EA00C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-6.png */,
+				B77836A9182584EA00C7DA88 /* splashscreen_horiz_ipad_0009_Polygon-1.png */,
+				B77836AA182584EA00C7DA88 /* splashscreen_horiz_ipad_0010_Rounded-Rectangle-2.png */,
+				B77836AB182584EA00C7DA88 /* splashscreen_horiz_ipad_0011_Movies.png */,
+				B77836AC182584EA00C7DA88 /* splashscreen_horiz_ipad_0012_Shape-4.png */,
+				B77836AD182584EA00C7DA88 /* splashscreen_horiz_ipad_0013_search.png */,
+				B77836AE182584EA00C7DA88 /* splashscreen_horiz_ipad_0014_Rounded-Rectangle-3.png */,
+				B77836AF182584EA00C7DA88 /* splashscreen_horiz_ipad_0015_Flavor.png */,
+				B77836B0182584EA00C7DA88 /* splashscreen_horiz_ipad_0016_Rectangle-7.png */,
+				B77836B1182584EA00C7DA88 /* splashscreen_horiz_ipad_0017_Shape-5.png */,
+				B77836B2182584EA00C7DA88 /* splashscreen_horiz_ipad_0018_Ellipse-6.png */,
+				B77836B3182584EA00C7DA88 /* splashscreen_horiz_ipad_0019_Ellipse-5.png */,
+				B77836B4182584EA00C7DA88 /* splashscreen_horiz_ipad_0020_Ellipse-4.png */,
+				B77836B5182584EA00C7DA88 /* splashscreen_horiz_ipad_0021_Ellipse-3.png */,
+				B77836B6182584EA00C7DA88 /* splashscreen_horiz_ipad_0022_Ellipse-2.png */,
+				B77836B7182584EA00C7DA88 /* splashscreen_horiz_ipad_0023_Rectangle-1.png */,
+				B77836B8182584EA00C7DA88 /* splashscreen_horiz_ipad_0024_Critics.png */,
+				B77836B9182584EA00C7DA88 /* splashscreen_horiz_ipad_0025_Shape-8.png */,
+				B77836BA182584EA00C7DA88 /* splashscreen_horiz_ipad_0026_Shape-7.png */,
+				B77836BB182584EA00C7DA88 /* splashscreen_horiz_ipad_0027_Rectangle-3.png */,
+				B77836BC182584EA00C7DA88 /* splashscreen_horiz_ipad_0028_Rectangle-5.png */,
+				B77836BD182584EA00C7DA88 /* splashscreen_horiz_ipad_0029_Rectangle-2.png */,
+				B77836BE182584EA00C7DA88 /* splashscreen_horiz_ipad_0030_Shape-9.png */,
+				B77836BF182584EA00C7DA88 /* splashscreen_horiz_ipad_0031_Add-Your-Flavor.png */,
+				B77836C0182584EA00C7DA88 /* splashscreen_horiz_ipad_0032_Review.png */,
+				B77836C1182584EA00C7DA88 /* splashscreen_horiz_ipad_0033_9.4.png */,
+				B77836C2182584EA00C7DA88 /* splashscreen_horiz_ipad_0034_Background.png */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+		B778370D1825850800C7DA88 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B77836E71825850400C7DA88 /* splashscreen_horiz_ipad_0000_Rounded-Rectangle-4.png */,
+				B77836E81825850400C7DA88 /* splashscreen_horiz_ipad_0001_Polygon-1.png */,
+				B77836E91825850400C7DA88 /* splashscreen_horiz_ipad_0002_Rahul-Madduluri.png */,
+				B77836EA1825850400C7DA88 /* splashscreen_horiz_ipad_0003_Ellipse-6.png */,
+				B77836EB1825850400C7DA88 /* splashscreen_horiz_ipad_0004_Profile.png */,
+				B77836EC1825850400C7DA88 /* splashscreen_horiz_ipad_0005_search.png */,
+				B77836ED1825850400C7DA88 /* splashscreen_horiz_ipad_0006_Shape-1.png */,
+				B77836EE1825850400C7DA88 /* splashscreen_horiz_ipad_0007_Favorites.png */,
+				B77836EF1825850400C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-10.png */,
+				B77836F01825850400C7DA88 /* splashscreen_horiz_ipad_0009_Rectangle-9.png */,
+				B77836F11825850400C7DA88 /* splashscreen_horiz_ipad_0010_Rectangle-8.png */,
+				B77836F21825850400C7DA88 /* splashscreen_horiz_ipad_0011_Shape-3.png */,
+				B77836F31825850400C7DA88 /* splashscreen_horiz_ipad_0012_Shape-2.png */,
+				B77836F41825850400C7DA88 /* splashscreen_horiz_ipad_0013_Books.png */,
+				B77836F51825850400C7DA88 /* splashscreen_horiz_ipad_0014_Music.png */,
+				B77836F61825850400C7DA88 /* splashscreen_horiz_ipad_0015_Movies.png */,
+				B77836F71825850400C7DA88 /* splashscreen_horiz_ipad_0016_Rounded-Rectangle-3.png */,
+				B77836F81825850400C7DA88 /* splashscreen_horiz_ipad_0017_Rectangle-7.png */,
+				B77836F91825850400C7DA88 /* splashscreen_horiz_ipad_0018_Background.png */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		B77837181825852F00C7DA88 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B778370E1825852400C7DA88 /* splashscreen_horiz_ipad_0000_Shape-1.png */,
+				B778370F1825852400C7DA88 /* splashscreen_horiz_ipad_0001_Shape-2.png */,
+				B77837101825852400C7DA88 /* splashscreen_horiz_ipad_0002_Polygon-1.png */,
+				B77837111825852400C7DA88 /* splashscreen_horiz_ipad_0003_palate.png */,
+				B77837121825852400C7DA88 /* splashscreen_horiz_ipad_0004_Background.png */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		B778371C182585AC00C7DA88 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B77836841825800700C7DA88 /* SplashViewController.h */,
+				B77836851825800700C7DA88 /* SplashViewController.m */,
+				B7783719182585A600C7DA88 /* LoginViewController.h */,
+				B778371A182585A600C7DA88 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B7783727182591D800C7DA88 /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				B7783723182591A900C7DA88 /* SWRevealViewController.h */,
+				B7783724182591A900C7DA88 /* SWRevealViewController.m */,
+			);
+			name = SWReveal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E067C8182579D60065504B /* Palate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E06801182579D60065504B /* Build configuration list for PBXNativeTarget "Palate" */;
+			buildPhases = (
+				A1E067C5182579D60065504B /* Sources */,
+				A1E067C6182579D60065504B /* Frameworks */,
+				A1E067C7182579D60065504B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palate;
+			productName = Palate;
+			productReference = A1E067C9182579D60065504B /* Palate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1E067EE182579D60065504B /* PalateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E06804182579D60065504B /* Build configuration list for PBXNativeTarget "PalateTests" */;
+			buildPhases = (
+				A1E067EA182579D60065504B /* Sources */,
+				A1E067EB182579D60065504B /* Frameworks */,
+				A1E067EC182579D60065504B /* Resources */,
+				A1E067ED182579D60065504B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E067F5182579D60065504B /* PBXTargetDependency */,
+			);
+			name = PalateTests;
+			productName = PalateTests;
+			productReference = A1E067EF182579D60065504B /* PalateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E067C1182579D60065504B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Palate;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Spencer Congero";
+			};
+			buildConfigurationList = A1E067C4182579D60065504B /* Build configuration list for PBXProject "Palate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1E067C0182579D60065504B;
+			productRefGroup = A1E067CA182579D60065504B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E067C8182579D60065504B /* Palate */,
+				A1E067EE182579D60065504B /* PalateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E067C7182579D60065504B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E067D7182579D60065504B /* InfoPlist.strings in Resources */,
+				A1E067DF182579D60065504B /* Default.png in Resources */,
+				A1E067E1182579D60065504B /* Default@2x.png in Resources */,
+				A1E067E3182579D60065504B /* Default-568h@2x.png in Resources */,
+				A1E067E6182579D60065504B /* MainStoryboard.storyboard in Resources */,
+				B7783695182584D000C7DA88 /* splashscreen_horiz_ipad_0000_password.png in Resources */,
+				B7783696182584D000C7DA88 /* splashscreen_horiz_ipad_0001_name.png in Resources */,
+				B7783697182584D000C7DA88 /* splashscreen_horiz_ipad_0002_Rounded-Rectangle-1.png in Resources */,
+				B7783698182584D000C7DA88 /* splashscreen_horiz_ipad_0003_slide-to-unlock.png in Resources */,
+				B7783699182584D000C7DA88 /* splashscreen_horiz_ipad_0004_Shape-1.png in Resources */,
+				B778369A182584D000C7DA88 /* splashscreen_horiz_ipad_0005_Shape-2.png in Resources */,
+				B778369B182584D000C7DA88 /* splashscreen_horiz_ipad_0006_Polygon-1.png in Resources */,
+				B778369C182584D000C7DA88 /* splashscreen_horiz_ipad_0007_palate.png in Resources */,
+				B778369D182584D000C7DA88 /* splashscreen_horiz_ipad_0008_Shape-3.png in Resources */,
+				B778369E182584D000C7DA88 /* splashscreen_horiz_ipad_0009_Background.png in Resources */,
+				B77836C3182584EA00C7DA88 /* splashscreen_horiz_ipad_0000_the_dark_knight_movie_poster.png in Resources */,
+				B77836C4182584EA00C7DA88 /* splashscreen_horiz_ipad_0001_gravity-movie-poster.png in Resources */,
+				B77836C5182584EA00C7DA88 /* splashscreen_horiz_ipad_0002_fightclub.png in Resources */,
+				B77836C6182584EA00C7DA88 /* splashscreen_horiz_ipad_0003_Rounded-Rectangle-1.png in Resources */,
+				B77836C7182584EA00C7DA88 /* splashscreen_horiz_ipad_0004_9.2-_.png in Resources */,
+				B77836C8182584EA00C7DA88 /* splashscreen_horiz_ipad_0005_Shape-6.png in Resources */,
+				B77836C9182584EA00C7DA88 /* splashscreen_horiz_ipad_0006_Rounded-Rectangle-4.png in Resources */,
+				B77836CA182584EA00C7DA88 /* splashscreen_horiz_ipad_0007_Polygon-2.png in Resources */,
+				B77836CB182584EA00C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-6.png in Resources */,
+				B77836CC182584EA00C7DA88 /* splashscreen_horiz_ipad_0009_Polygon-1.png in Resources */,
+				B77836CD182584EA00C7DA88 /* splashscreen_horiz_ipad_0010_Rounded-Rectangle-2.png in Resources */,
+				B77836CE182584EA00C7DA88 /* splashscreen_horiz_ipad_0011_Movies.png in Resources */,
+				B77836CF182584EA00C7DA88 /* splashscreen_horiz_ipad_0012_Shape-4.png in Resources */,
+				B77836D0182584EA00C7DA88 /* splashscreen_horiz_ipad_0013_search.png in Resources */,
+				B77836D1182584EA00C7DA88 /* splashscreen_horiz_ipad_0014_Rounded-Rectangle-3.png in Resources */,
+				B77836D2182584EA00C7DA88 /* splashscreen_horiz_ipad_0015_Flavor.png in Resources */,
+				B77836D3182584EA00C7DA88 /* splashscreen_horiz_ipad_0016_Rectangle-7.png in Resources */,
+				B77836D4182584EA00C7DA88 /* splashscreen_horiz_ipad_0017_Shape-5.png in Resources */,
+				B77836D5182584EA00C7DA88 /* splashscreen_horiz_ipad_0018_Ellipse-6.png in Resources */,
+				B77836D6182584EA00C7DA88 /* splashscreen_horiz_ipad_0019_Ellipse-5.png in Resources */,
+				B77836D7182584EA00C7DA88 /* splashscreen_horiz_ipad_0020_Ellipse-4.png in Resources */,
+				B77836D8182584EA00C7DA88 /* splashscreen_horiz_ipad_0021_Ellipse-3.png in Resources */,
+				B77836D9182584EA00C7DA88 /* splashscreen_horiz_ipad_0022_Ellipse-2.png in Resources */,
+				B77836DA182584EA00C7DA88 /* splashscreen_horiz_ipad_0023_Rectangle-1.png in Resources */,
+				B77836DB182584EA00C7DA88 /* splashscreen_horiz_ipad_0024_Critics.png in Resources */,
+				B77836DC182584EA00C7DA88 /* splashscreen_horiz_ipad_0025_Shape-8.png in Resources */,
+				B77836DD182584EA00C7DA88 /* splashscreen_horiz_ipad_0026_Shape-7.png in Resources */,
+				B77836DE182584EA00C7DA88 /* splashscreen_horiz_ipad_0027_Rectangle-3.png in Resources */,
+				B77836DF182584EA00C7DA88 /* splashscreen_horiz_ipad_0028_Rectangle-5.png in Resources */,
+				B77836E0182584EA00C7DA88 /* splashscreen_horiz_ipad_0029_Rectangle-2.png in Resources */,
+				B77836E1182584EA00C7DA88 /* splashscreen_horiz_ipad_0030_Shape-9.png in Resources */,
+				B77836E2182584EA00C7DA88 /* splashscreen_horiz_ipad_0031_Add-Your-Flavor.png in Resources */,
+				B77836E3182584EA00C7DA88 /* splashscreen_horiz_ipad_0032_Review.png in Resources */,
+				B77836E4182584EA00C7DA88 /* splashscreen_horiz_ipad_0033_9.4.png in Resources */,
+				B77836E5182584EA00C7DA88 /* splashscreen_horiz_ipad_0034_Background.png in Resources */,
+				B77836FA1825850400C7DA88 /* splashscreen_horiz_ipad_0000_Rounded-Rectangle-4.png in Resources */,
+				B77836FB1825850400C7DA88 /* splashscreen_horiz_ipad_0001_Polygon-1.png in Resources */,
+				B77836FC1825850400C7DA88 /* splashscreen_horiz_ipad_0002_Rahul-Madduluri.png in Resources */,
+				B77836FD1825850400C7DA88 /* splashscreen_horiz_ipad_0003_Ellipse-6.png in Resources */,
+				B77836FE1825850400C7DA88 /* splashscreen_horiz_ipad_0004_Profile.png in Resources */,
+				B77836FF1825850400C7DA88 /* splashscreen_horiz_ipad_0005_search.png in Resources */,
+				B77837001825850400C7DA88 /* splashscreen_horiz_ipad_0006_Shape-1.png in Resources */,
+				B77837011825850400C7DA88 /* splashscreen_horiz_ipad_0007_Favorites.png in Resources */,
+				B77837021825850400C7DA88 /* splashscreen_horiz_ipad_0008_Rectangle-10.png in Resources */,
+				B77837031825850400C7DA88 /* splashscreen_horiz_ipad_0009_Rectangle-9.png in Resources */,
+				B77837041825850400C7DA88 /* splashscreen_horiz_ipad_0010_Rectangle-8.png in Resources */,
+				B77837051825850400C7DA88 /* splashscreen_horiz_ipad_0011_Shape-3.png in Resources */,
+				B77837061825850400C7DA88 /* splashscreen_horiz_ipad_0012_Shape-2.png in Resources */,
+				B77837071825850400C7DA88 /* splashscreen_horiz_ipad_0013_Books.png in Resources */,
+				B77837081825850400C7DA88 /* splashscreen_horiz_ipad_0014_Music.png in Resources */,
+				B77837091825850400C7DA88 /* splashscreen_horiz_ipad_0015_Movies.png in Resources */,
+				B778370A1825850400C7DA88 /* splashscreen_horiz_ipad_0016_Rounded-Rectangle-3.png in Resources */,
+				B778370B1825850400C7DA88 /* splashscreen_horiz_ipad_0017_Rectangle-7.png in Resources */,
+				B778370C1825850400C7DA88 /* splashscreen_horiz_ipad_0018_Background.png in Resources */,
+				B77837131825852400C7DA88 /* splashscreen_horiz_ipad_0000_Shape-1.png in Resources */,
+				B77837141825852400C7DA88 /* splashscreen_horiz_ipad_0001_Shape-2.png in Resources */,
+				B77837151825852400C7DA88 /* splashscreen_horiz_ipad_0002_Polygon-1.png in Resources */,
+				B77837161825852400C7DA88 /* splashscreen_horiz_ipad_0003_palate.png in Resources */,
+				B77837171825852400C7DA88 /* splashscreen_horiz_ipad_0004_Background.png in Resources */,
+				B778372018258DA500C7DA88 /* Nothing.png in Resources */,
+				B778372218258DB900C7DA88 /* resized palate pentagon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E067EC182579D60065504B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E067FB182579D60065504B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1E067ED182579D60065504B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E067C5182579D60065504B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E067D9182579D60065504B /* main.m in Sources */,
+				A1E067DD182579D60065504B /* PalateAppDelegate.m in Sources */,
+				B77836861825800700C7DA88 /* SplashViewController.m in Sources */,
+				B778371B182585A600C7DA88 /* LoginViewController.m in Sources */,
+				B7783725182591AA00C7DA88 /* SWRevealViewController.m in Sources */,
+				B778372A1825979200C7DA88 /* SideBarViewController.m in Sources */,
+				B778372E18259BC200C7DA88 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E067EA182579D60065504B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E067FE182579D60065504B /* PalateTests.m in Sources */,
+				B7783726182591AA00C7DA88 /* SWRevealViewController.m in Sources */,
+				B778372B1825979200C7DA88 /* SideBarViewController.m in Sources */,
+				B778372F18259BC200C7DA88 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1E067F5182579D60065504B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E067C8182579D60065504B /* Palate */;
+			targetProxy = A1E067F4182579D60065504B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1E067D5182579D60065504B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E067D6182579D60065504B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1E067E4182579D60065504B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E067E5182579D60065504B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A1E067F9182579D60065504B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E067FA182579D60065504B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1E067FF182579D60065504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A1E06800182579D60065504B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E06802182579D60065504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palate/Palate-Prefix.pch";
+				INFOPLIST_FILE = "Palate/Palate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1E06803182579D60065504B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palate/Palate-Prefix.pch";
+				INFOPLIST_FILE = "Palate/Palate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1E06805182579D60065504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Palate.app/Palate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palate/Palate-Prefix.pch";
+				INFOPLIST_FILE = "PalateTests/PalateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1E06806182579D60065504B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Palate.app/Palate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palate/Palate-Prefix.pch";
+				INFOPLIST_FILE = "PalateTests/PalateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E067C4182579D60065504B /* Build configuration list for PBXProject "Palate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E067FF182579D60065504B /* Debug */,
+				A1E06800182579D60065504B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E06801182579D60065504B /* Build configuration list for PBXNativeTarget "Palate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E06802182579D60065504B /* Debug */,
+				A1E06803182579D60065504B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E06804182579D60065504B /* Build configuration list for PBXNativeTarget "PalateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E06805182579D60065504B /* Debug */,
+				A1E06806182579D60065504B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E067C1182579D60065504B /* Project object */;
+}
